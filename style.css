@@ -15,12 +15,12 @@ a, a:link {
 .logo {
   background-image: url('logo__bg.svg');
   background-repeat: repeat-x;
-  margin-left: 6px;
+  margin-left: 24px;
   margin-top: calc(var(--s-grid-unit) * 4);
   width: 100%;
 }
 
 .content {
   max-width: 28rem;
-  padding: 16px;
+  padding: calc(var(--s-grid-unit) * 4);
 }
