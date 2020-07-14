@@ -8,15 +8,19 @@ body {
   padding: 0;
 }
 
+a, a:link {
+  color: inherit;
+}
+
 .logo {
   background-image: url('logo__bg.svg');
   background-repeat: repeat-x;
   margin-left: 6px;
-  margin-top: calc(var(--s-grid-unit) * 2);
+  margin-top: calc(var(--s-grid-unit) * 4);
   width: 100%;
 }
 
 .content {
-  max-width: 32rem;
+  max-width: 28rem;
   padding: 16px;
 }
