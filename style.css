@@ -1,0 +1,22 @@
+:root {
+  --s-grid-unit: 8px;
+}
+
+body {
+  font-family: 'Overpass Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  background-image: url('logo__bg.svg');
+  background-repeat: repeat-x;
+  margin-left: 6px;
+  margin-top: calc(var(--s-grid-unit) * 2);
+  width: 100%;
+}
+
+.content {
+  max-width: 32rem;
+  padding: 16px;
+}
