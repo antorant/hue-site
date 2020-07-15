@@ -1,9 +1,16 @@
 :root {
   --s-grid-unit: 8px;
+
+  --c-bg-2: #111413;
+  --c-bg: #262E2B;
+  --c-fg: #ffffff;
 }
 
 body {
+  background-color: var(--c-bg);
+  color: var(--c-fg);
   font-family: 'Overpass Mono', monospace;
+  font-weight: 300;
   margin: 0;
   padding: 0;
 }
@@ -19,6 +26,17 @@ a, a:link {
   margin-top: calc(var(--s-grid-unit) * 4);
   width: 100%;
 }
+
+.logo img {
+  height: 112px;
+  width: auto;
+}
+
+@media only screen and (min-width : 767px) {
+  .logo img {height: 224px; }
+}
+
+
 
 .content {
   max-width: 28rem;
