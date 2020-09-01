@@ -33,8 +33,7 @@ a, a:link {
   background-image: url('logo__bg.svg');
   background-repeat: repeat-x;
   margin-left: 24px;
-
-  width: 100%;
+  width: calc(100% - 24px);
 }
 
 .logo img {
