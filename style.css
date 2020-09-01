@@ -22,7 +22,7 @@ a, a:link {
 }
 
 .container {
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .6);
   min-height: 100%;
   width: 100%;
   padding-top: calc(var(--s-grid-unit) * 4);
