@@ -8,6 +8,8 @@
 
 body {
   background-color: var(--c-bg);
+  background-image: url('img/1.jpg');
+  background-size: cover;
   color: var(--c-fg);
   font-family: 'Overpass Mono', monospace;
   font-weight: 300;
@@ -19,11 +21,18 @@ a, a:link {
   color: inherit;
 }
 
+.container {
+  background-color: rgba(0, 0, 0, .5);
+  min-height: 100%;
+  width: 100%;
+  padding-top: calc(var(--s-grid-unit) * 4);
+}
+
 .logo {
   background-image: url('logo__bg.svg');
   background-repeat: repeat-x;
   margin-left: 24px;
-  margin-top: calc(var(--s-grid-unit) * 4);
+
   width: 100%;
 }
 
