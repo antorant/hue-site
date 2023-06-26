@@ -57,7 +57,7 @@ hr {
   padding: calc(var(--s-grid-unit) * 4);
 }
 
-.cta:link {
+.cta, .cta:link {
   background-color: var(--c-fg);
   /* color: var(--c-bg); */
   color: #000000;
