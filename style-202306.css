@@ -72,6 +72,10 @@ hr {
 
 .cta:hover {opacity: .95;}
 
+.tel {
+  display: inline-block;
+}
+
 .products img {
   height: 48px;
   width: 128px;
@@ -81,16 +85,26 @@ hr {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 2rem;
-  text-align: left;
+}
+
+@media only screen and (min-width : 767px) {
+  .profile {
+    text-align: left;
+  }
 }
 
 .profile img {
   border-radius: 50%;
-  /* float: left; */
   height: 192px;
-  margin-right: 1rem;
   width: 192px;
+}
+
+@media only screen and (min-width : 767px) {
+  .profile img {
+    margin-right: 1rem;
+  }
 }
 
 .profile .text {
