@@ -82,16 +82,20 @@ hr {
 }
 
 .profile {
+  align-items: center;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
 @media only screen and (min-width : 767px) {
   .profile {
-/*    text-align: left;*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    text-align: left;
   }
 }
 
@@ -103,7 +107,7 @@ hr {
 
 @media only screen and (min-width : 767px) {
   .profile img {
-/*    margin-right: 1rem;*/
+    margin-right: 1rem;
   }
 }
 
