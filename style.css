@@ -135,4 +135,7 @@ hr {
   text-align: left;
 }
 
-.prices .price { float: right; }
+.prices .price {
+  float: right;
+  margin-left: 1rem;
+}
