@@ -8,6 +8,7 @@
 
 body {
   background-attachment: fixed;
+
   background-color: var(--c-bg);
   background-image: url('img/1.jpg');
   background-position: center;
@@ -18,6 +19,11 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+
+  /*background-size: cover;
+  background-attachment: scroll;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);*/
 }
 
 a, a:link {
@@ -116,3 +122,17 @@ hr {
   flex-direction: column;
   justify-content: center;
 }
+
+.photos img {
+  height: auto;
+  margin-bottom: 2rem;
+  max-width: 100%;
+}
+
+.prices p {
+  font-size: .825rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.prices .price { float: right; }
